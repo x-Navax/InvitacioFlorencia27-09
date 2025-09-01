@@ -63,10 +63,12 @@ main {
 }
 
 .marca{ margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
-
+.marca a {
+    text-decoration: none;
+}
 .marca a span {
   color: #000;
   text-decoration: none; /* también sirve acá */
