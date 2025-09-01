@@ -3,7 +3,7 @@
     padding: 0;
 }
 #bg {
-    background-color: #ffffff;
+    background-color: #ffefd3;
 }
 header {
     display: flex;
@@ -48,12 +48,12 @@ main {
     font-size: 2rem;
     color: #BC0000;
     text-align: center;
-    margin-top: -345px;
+    margin-top: -240px;
 }
 
 
 .botonW img {
-    width: 10rem;
+    width: 1rem;
 }
 
 .botonW {
@@ -95,16 +95,16 @@ main {
     }
 
     .botonW img {
-        width: 8rem; /* Reduce el tamaño del botón de WhatsApp */
+        width: 4rem; /* Reduce el tamaño del botón de WhatsApp */
     }
 }
 
 @media (max-width: 480px) {
     .asistencia {
-        font-size: 1.2rem; /* Tamaño de fuente aún menor para pantallas muy pequeñas */
+        font-size: 0.8rem; /* Tamaño de fuente aún menor para pantallas muy pequeñas */
     }
 
     .botonW img {
-        width: 6rem; /* Ajusta el tamaño del botón de WhatsApp */
+        width: 3rem; /* Ajusta el tamaño del botón de WhatsApp */
     }
 }
